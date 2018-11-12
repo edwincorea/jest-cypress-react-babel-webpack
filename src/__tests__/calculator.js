@@ -1,6 +1,6 @@
 import React from 'react'
-import {render} from 'calculator-test-utils'
 import loadable from 'react-loadable'
+import {render} from '../../test/calculator-test-utils'
 import Calculator from '../calculator'
 
 test('renders', async () => {

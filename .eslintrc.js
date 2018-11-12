@@ -16,6 +16,9 @@ module.exports = {
             files: ['**/__tests__/**'],
             settings: {
                 'import/resolver': {
+                    node: {
+                        paths: [ path.join(__dirname, 'src'), 'shared' ]
+                    },
                     jest: {
                         jestConfigFile: path.join(
                             __dirname,
