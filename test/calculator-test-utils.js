@@ -4,10 +4,10 @@ import {ThemeProvider} from 'emotion-theming'
 import * as themes from 'themes'
 
 function render(ui, ...rest) {
-  return rtlRender(
-    <ThemeProvider theme={themes.dark}>{ui}</ThemeProvider>,
-    ...rest,
-  )
+    return rtlRender(
+        <ThemeProvider theme={themes.dark}>{ui}</ThemeProvider>,
+        ...rest,
+    )
 }
 
 export * from 'react-testing-library'
